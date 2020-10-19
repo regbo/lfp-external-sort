@@ -37,19 +37,11 @@
 				<artifactId>junit</artifactId>
 				<version>4.12</version>
 			</dependency>
-
 			<dependency>
 				<groupId>com.github.jbellis</groupId>
 				<artifactId>jamm</artifactId>
 				<version>0.3.1</version>
 			</dependency>
-
-			<dependency>
-				<groupId>org.apache.commons</groupId>
-				<artifactId>commons-csv</artifactId>
-				<version>1.4</version>
-			</dependency>
-
 		</dependencies>
 	</dependencyManagement>
 	<dependencies>
@@ -63,13 +55,9 @@
 			<artifactId>jamm</artifactId>
 			<scope>test</scope>
 		</dependency>
-
-
 	</dependencies>
 	<build>
 		<plugins>
-
-
 			<plugin>
 				<groupId>org.jacoco</groupId>
 				<artifactId>jacoco-maven-plugin</artifactId>
@@ -97,7 +85,6 @@
 					<target>${java.target.version}</target>
 				</configuration>
 			</plugin>
-
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
